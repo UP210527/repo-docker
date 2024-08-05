@@ -1,3 +1,4 @@
+#base para construir el contenedor 
 FROM node:20.5.0-alpine3.18
 RUN addgroup react && adduser -S -G react react
 USER react
